@@ -1,5 +1,5 @@
 {
-	"name": "fem-file-locking",
+	"name": "@fem/file-locking",
 	"version": "1.0.0",
 	"description": "library that handle file locking",
 	"main": "lib/index.js",
@@ -56,7 +56,8 @@
 		"lint": "eslint .",
 		"prepublish": "npm run build",
 		"build": "babel src/ --out-dir lib/ --copy-files",
-		"cover": "cross-env NODE_ENV=test nyc npm t"
+		"cover": "cross-env NODE_ENV=test nyc npm t",
+		"pub": "npm publish --access=public"
 	},
 	"engines": {
 		"node": ">=4.6.1",
