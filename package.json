@@ -1,6 +1,6 @@
 {
 	"name": "@fem/file-locking",
-	"version": "1.0.9",
+	"version": "1.0.10",
 	"description": "library that handle file locking",
 	"main": "lib/index.js",
 	"keywords": [

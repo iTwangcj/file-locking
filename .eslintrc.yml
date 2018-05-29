@@ -50,10 +50,10 @@ rules:
   # curly: 1
 
   # just warnings about whitespace weirdness here
-  eol-last: 1
+  eol-last: 0
   no-irregular-whitespace: 1
   no-mixed-spaces-and-tabs: [1, smart-tabs]
-  no-trailing-spaces: 1
+  no-trailing-spaces: 0
 
   # probably always an error, tell me if it's not
   no-new-require: 2
@@ -98,7 +98,13 @@ rules:
   new-cap: 2
 
   # readbility is important, no multiple inline declarations
-  one-var: 2
+  one-var: 0
 
   # console not allowed unless for testing
   no-console: [2, {"allow": ["log", "warn"]}]
+
+  comma-dangle: 0
+
+  object-curly-spacing: 0
+
+  space-before-function-paren: 0
