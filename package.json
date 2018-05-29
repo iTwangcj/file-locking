@@ -1,6 +1,6 @@
 {
 	"name": "@fem/file-locking",
-	"version": "1.0.8",
+	"version": "1.0.9",
 	"description": "library that handle file locking",
 	"main": "lib/index.js",
 	"keywords": [
@@ -8,6 +8,7 @@
 		"fs"
 	],
 	"devDependencies": {
+		"@fem/types": "^1.0.5",
 		"babel-cli": "6.24.1",
 		"babel-core": "6.25.0",
 		"babel-eslint": "^7.2.3",
