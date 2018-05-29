@@ -1,6 +1,6 @@
 {
 	"name": "@fem/file-locking",
-	"version": "1.0.3",
+	"version": "1.0.5",
 	"description": "library that handle file locking",
 	"main": "lib/index.js",
 	"keywords": [
@@ -26,7 +26,7 @@
 		"mocha": "3.4.2",
 		"nyc": "11.0.3"
 	},
-	"author": "itwang <wangcj10086@163.com>",
+	"author": "itwang <cjking.wang@gmail.com>",
 	"private": false,
 	"license": "MIT",
 	"dependencies": {
