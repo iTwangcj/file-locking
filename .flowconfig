@@ -12,7 +12,7 @@ lib/.*
 [include]
 
 [libs]
-node_modules/@ppm/types/lib/
+node_modules/@fem/types/lib/
 
 [lints]
 
